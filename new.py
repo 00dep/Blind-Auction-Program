@@ -1,6 +1,5 @@
 import os
 
-# logo replacement (since art module may not exist)
 logo = """
  ____  _     ___ ____  
 | __ )| |   |_ _|  _ \ 
@@ -39,5 +38,6 @@ while not bidding_finish:
         find_highest_bidder(bids)
     elif should_continue == "yes":
         clear()
+
 
 
